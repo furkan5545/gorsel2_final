@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApplication5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="172*"/>
+                <ColumnDefinition Width="345*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="txt1" Margin="145,27,134,240" Background="Bisque" Grid.ColumnSpan="2" ></TextBox>
+            <PasswordBox Name="ps1" Margin="145,104,134,162" Background="Bisque" Grid.ColumnSpan="2"></PasswordBox>
+            <Button Margin="98,157,134,130" Background="Green" Grid.Column="1" Click="Button_Click">Giriş</Button>
+        </Grid>
+    </Grid>
+
+</Window>
