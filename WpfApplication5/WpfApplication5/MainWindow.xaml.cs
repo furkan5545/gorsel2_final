@@ -24,7 +24,7 @@ namespace WpfApplication5
         {
             InitializeComponent();
         }
-   
+   kjhjjj
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             if (txt1.Text == "admin" && ps1.Password == "123")
